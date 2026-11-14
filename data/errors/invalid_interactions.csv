@@ -1,0 +1,6 @@
+interaction_id,user_id,item_id,rating,event_type,timestamp,error_reasons
+E0000001,U0001,I0104,9,view,2025-10-07T22:47:00,duplicate_interaction_id;invalid_rating
+E0000002,U9999,I0023,3,view,2025-11-04T20:40:00,duplicate_interaction_id;unknown_user_id
+E0000003,U0001,I0003,2,view,not-a-timestamp,duplicate_interaction_id;invalid_timestamp
+E0000004,U0001,I9999,2,view,2025-01-13T22:21:00,duplicate_interaction_id;unknown_item_id
+E0000005,U0001,I0105,4,click,2026-04-25T09:13:00,duplicate_interaction_id

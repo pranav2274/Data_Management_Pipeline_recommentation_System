@@ -1,0 +1,15 @@
+entity,feature,definition,source_or_calculation,available_for
+user,age,User age from profile,users.csv,training and prediction
+user,country,Upper-cased country code,users.csv,training and prediction
+user,user_activity_count,Count of training interactions,train interactions grouped by user,training and prediction
+user,user_avg_rating,Mean rating in training history,train interactions grouped by user,training and prediction
+user,preferred_category,Most frequently interacted category,training interactions joined with item category,training and prediction
+user,days_since_last_interaction,Days since user's last training interaction,training reference timestamp minus max user timestamp,training and prediction
+item,category,Item taxonomy label,items.csv,training and prediction
+item,price,Numeric item price,items.csv,training and prediction
+item,item_popularity,Count of training interactions,train interactions grouped by item,training and prediction
+item,item_avg_rating,Mean training rating,train interactions grouped by item,training and prediction
+interaction,rating,Observed rating from 1 to 5,interactions.csv,training only / historical prediction input
+interaction,event_type,View click or purchase,interactions.csv,training and prediction
+interaction,timestamp,UTC interaction timestamp,interactions.csv,training and prediction
+interaction,days_since_last_interaction,User recency feature,derived at training reference time,training and prediction

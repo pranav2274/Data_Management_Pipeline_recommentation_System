@@ -1,0 +1,53 @@
+{
+  "started_at_utc": "2026-11-14T17:19:07.023755+00:00",
+  "tasks": [
+    {
+      "task": "generate_or_check_synthetic_data",
+      "status": "success"
+    },
+    {
+      "task": "ingestion",
+      "status": "success"
+    },
+    {
+      "task": "validation_and_quarantine",
+      "status": "success"
+    },
+    {
+      "task": "preparation",
+      "status": "success"
+    },
+    {
+      "task": "time_split_and_derived_datasets",
+      "status": "success"
+    },
+    {
+      "task": "feature_management",
+      "status": "success"
+    },
+    {
+      "task": "train_popularity_baseline",
+      "status": "success"
+    },
+    {
+      "task": "train_item_item_collaborative_filtering",
+      "status": "success"
+    },
+    {
+      "task": "evaluation",
+      "status": "success"
+    }
+  ],
+  "finished_at_utc": "2026-11-14T17:19:08.813822+00:00",
+  "status": "success",
+  "counts": {
+    "users": 300,
+    "items": 150,
+    "raw_interactions": 10505,
+    "valid_interactions": 10500,
+    "quarantined_interactions": 5,
+    "train_interactions": 8400,
+    "test_interactions": 2100,
+    "interaction_feature_rows": 8400
+  }
+}

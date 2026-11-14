@@ -1,0 +1,20 @@
+2026-11-14 22:49:07,023 | INFO | START generate_or_check_synthetic_data
+2026-11-14 22:49:07,023 | INFO | SUCCESS generate_or_check_synthetic_data
+2026-11-14 22:49:07,024 | INFO | START ingestion
+2026-11-14 22:49:07,031 | INFO | SUCCESS ingestion
+2026-11-14 22:49:07,031 | INFO | START validation_and_quarantine
+2026-11-14 22:49:08,659 | INFO | SUCCESS validation_and_quarantine
+2026-11-14 22:49:08,659 | INFO | START preparation
+2026-11-14 22:49:08,686 | INFO | SUCCESS preparation
+2026-11-14 22:49:08,687 | INFO | START time_split_and_derived_datasets
+2026-11-14 22:49:08,730 | INFO | SUCCESS time_split_and_derived_datasets
+2026-11-14 22:49:08,730 | INFO | START feature_management
+2026-11-14 22:49:08,768 | INFO | SUCCESS feature_management
+2026-11-14 22:49:08,768 | INFO | START train_popularity_baseline
+2026-11-14 22:49:08,770 | INFO | SUCCESS train_popularity_baseline
+2026-11-14 22:49:08,770 | INFO | START train_item_item_collaborative_filtering
+2026-11-14 22:49:08,776 | INFO | SUCCESS train_item_item_collaborative_filtering
+2026-11-14 22:49:08,777 | INFO | START evaluation
+2026-11-14 22:49:08,812 | INFO | SUCCESS evaluation
+2026-11-14 22:49:08,813 | INFO | PIPELINE COMPLETED SUCCESSFULLY
+2026-11-14 22:49:08,813 | INFO | Results: /Users/pranavbahuguna/Downloads/recommendation-pipeline/reports/evaluation_results.csv

@@ -1,0 +1,44 @@
+2026-11-14 17:06:24,045 | INFO | START generate_or_check_synthetic_data
+2026-11-14 17:06:24,839 | INFO | SUCCESS generate_or_check_synthetic_data
+2026-11-14 17:06:24,839 | INFO | START ingestion
+2026-11-14 17:06:24,861 | INFO | SUCCESS ingestion
+2026-11-14 17:06:24,861 | INFO | START validation_and_quarantine
+2026-11-14 17:06:28,559 | INFO | SUCCESS validation_and_quarantine
+2026-11-14 17:06:28,559 | INFO | START preparation
+2026-11-14 17:06:28,625 | INFO | SUCCESS preparation
+2026-11-14 17:06:28,625 | INFO | START time_split_and_derived_datasets
+2026-11-14 17:06:28,731 | INFO | SUCCESS time_split_and_derived_datasets
+2026-11-14 17:06:28,731 | INFO | START feature_management
+2026-11-14 17:06:28,818 | INFO | SUCCESS feature_management
+2026-11-14 17:06:28,818 | INFO | START train_popularity_baseline
+2026-11-14 17:06:28,823 | INFO | SUCCESS train_popularity_baseline
+2026-11-14 17:06:28,823 | INFO | START train_item_item_collaborative_filtering
+2026-11-14 17:06:28,830 | INFO | SUCCESS train_item_item_collaborative_filtering
+2026-11-14 17:06:28,831 | INFO | START evaluation
+2026-11-14 17:06:28,892 | INFO | SUCCESS evaluation
+2026-11-14 17:06:28,894 | INFO | PIPELINE COMPLETED SUCCESSFULLY
+2026-11-14 17:06:28,894 | INFO | Results: /mnt/data/recommendation-pipeline/reports/evaluation_results.csv
+
+RUN SUMMARY
+Status: success
+users: 300
+items: 150
+raw_interactions: 10505
+valid_interactions: 10500
+quarantined_interactions: 5
+train_interactions: 8400
+test_interactions: 2100
+interaction_feature_rows: 8400
+test_models_return_unseen_items (test_pipeline.PipelineSmokeTests.test_models_return_unseen_items) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+/mnt/data/recommendation-pipeline/reports/final_report.pdf
+ rank item_id            title    category  price  item_popularity  item_avg_rating
+    1   I0121 Catalog item 121 Electronics 429.77               60         3.066667
+    2   I0002 Catalog item 002 Electronics 479.42               55         2.963636
+    3   I0120 Catalog item 120 Electronics 312.84               45         2.511111
+    4   I0119 Catalog item 119 Electronics 121.09               51         3.137255
+    5   I0135 Catalog item 135 Electronics 201.49               55         3.163636

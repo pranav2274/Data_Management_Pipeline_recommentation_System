@@ -1,0 +1,23 @@
+{
+  "run_id": "20261114T170628Z_68038132",
+  "model_name": "Popularity baseline",
+  "timestamp_utc": "2026-11-14T17:06:28.893743+00:00",
+  "parameters": {
+    "top_k": 5,
+    "train_fraction": 0.8,
+    "random_seed": 42
+  },
+  "metrics": {
+    "precision@5": 0.020666666666666667,
+    "recall@5": 0.05288888888888889,
+    "ndcg@5": 0.03398499676361643,
+    "coverage": 0.07333333333333333,
+    "diversity": 0.6083333333333333,
+    "evaluated_users": 300,
+    "note": "Ranking-only recommender; explicit rating prediction (RMSE/MAE) is not performed."
+  },
+  "artifacts": [
+    "/mnt/data/recommendation-pipeline/models/popularity_model.pkl",
+    "/mnt/data/recommendation-pipeline/reports/evaluation_results.csv"
+  ]
+}

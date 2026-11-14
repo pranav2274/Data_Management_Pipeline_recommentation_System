@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "users_missing_values": {
+      "passed": true,
+      "detail": "0 missing cell(s)"
+    },
+    "items_missing_values": {
+      "passed": true,
+      "detail": "0 missing cell(s)"
+    },
+    "interactions_missing_values": {
+      "passed": true,
+      "detail": "0 missing cell(s)"
+    },
+    "users_duplicate_keys": {
+      "passed": true,
+      "detail": "0 duplicate user_id(s)"
+    },
+    "items_duplicate_keys": {
+      "passed": true,
+      "detail": "0 duplicate item_id(s)"
+    },
+    "interaction_duplicate_ids": {
+      "passed": false,
+      "detail": "5 duplicate interaction_id(s)"
+    },
+    "user_age_numeric": {
+      "passed": true,
+      "detail": "0 non-numeric age(s)"
+    },
+    "item_price_numeric": {
+      "passed": true,
+      "detail": "0 non-numeric price(s)"
+    },
+    "timestamps_valid": {
+      "passed": false,
+      "detail": "1 invalid timestamp(s)"
+    },
+    "interaction_rating_numeric": {
+      "passed": true,
+      "detail": "0 non-numeric rating(s)"
+    },
+    "ratings_between_1_and_5": {
+      "passed": false,
+      "detail": "1 invalid rating(s)"
+    },
+    "referential_integrity_users": {
+      "passed": false,
+      "detail": "1 interaction(s) reference unknown users"
+    },
+    "referential_integrity_items": {
+      "passed": false,
+      "detail": "1 interaction(s) reference unknown items"
+    }
+  },
+  "summary": {
+    "users_rows": 300,
+    "items_rows": 150,
+    "interaction_rows_received": 10505,
+    "valid_interactions": 10500,
+    "quarantined_interactions": 5,
+    "raw_checks_passed": false,
+    "quarantine_completed": true,
+    "clean_interactions_passed": true
+  }
+}
